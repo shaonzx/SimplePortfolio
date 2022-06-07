@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Atiqur Rahman - Full Stack Developer</title>
+
+  <!-- Global stylesheets -->
+  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+    rel="stylesheet">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/devicons/css/devicons.min.css" rel="stylesheet">
+  <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  
+  <style>
+    /* * {box-sizing: border-box}
+    body {font-family: Verdana, sans-serif; margin:0} */
+    .mySlides {display: none}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 300px;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    /* .active, .dot:hover {
+      background-color: #717171;
+    } */
+    
+    /* Fading animation */
+    /* .fade {
+      animation-name: fade;
+      animation-duration: 15s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    } */
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+    </style>
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none  mx-0 px-0"><img src="img/logo-white.png" alt="" class="img-fluid"></span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <!--<li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+        </li>-->
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="/blog" target="_blank">Blog</a>
+        </li>
+
+      </ul>
+    </div>
+
+    
+
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <!--====================================================
+                        ABOUT
+    ======================================================-->
+    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+      <div class="my-auto">
+        <img src="img/logo-s.png" class="img-fluid mb-3" alt="">
+        <h1 class="mb-0">Atiqur
+          <span class="text-primary">Rahman</span>
+        </h1>
+        <div class="subheading mb-5">THE NEXT BIG IDEA IS WAITING FOR ITS NEXT BIG CHANGER
+        </div>
+        <p class="mb-5" style="max-width: 500px;">It's important to me to build long-term relationships with my clients, 
+          so I'm primarily looking for long-term projects, and that led me to create great products for my clients and make them happy. 
+          </br> </br>         
+          I have built numerous applications, modules, tools, and systems for many people and corporations.</p>
+
+        <ul class="list-inline list-social-icons mb-0">
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/shaonzx/" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/shaonzx/" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://stackoverflow.com/users/2982601/shaonzx" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://facebook.com/shaonzx" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/shaonzx" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!--====================================================
+                        EXPERIENCE
+    ======================================================-->
+    <section class="resume-section p-3 p-lg-5 " id="experience">
+      <div class="row my-auto">
+        <div class="col-12">
+          <h2 class="  text-center">Experience</h2>
+          <div class="mb-5 heading-border"></div>
+        </div>
+        <div class="resume-item col-md-6 col-sm-12 ">
+          <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
+            <div class=" resume-content mr-auto">
+              <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> Senior Programmer Analyst at Computer Ease Limited</h4>
+              <p>Project management | Project lead | System requirements Analyze | Problem analyzing | Database structure analysis & design 
+                | Core software development | Requirement briefing | Basic training to the new team members | Troubleshooting.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2020 - March 2021</span>
+            </div>
+          </div>
+        </div>
+        <div class="resume-item col-md-6 col-sm-12">
+          <div class="card mx-0 p-4 mb-5" style="border-color: #ffc107; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-3"><i class="fa fa-laptop mr-3 text-warning"></i> Junior Programmer Analyst at Computer Ease Limited</h4>
+              <p>Project lead | System requirements Analyze | Problem analyzing | Documentation | Database structure analysis & design 
+                | Core software development | Coding | Accompanying others for problem detection | Requirement briefing 
+                | Troubleshooting.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2017 - December 2019</span>
+            </div>
+          </div>
+        </div>
+        <div class="resume-item col-md-6 col-sm-12">
+          <div class="card mx-0 p-4 mb-5" style="border-color: #28a745; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-3"><i class="fa fa-camera mr-3 text-success"></i> Software Engineer at Windmill Infotech Ltd.</h4>
+              <p>Android app development for MeenaBazaar. There entire inventory and eCommerce site was developed using Magento back then. 
+                I had to write the REST API in order to communicate with Magento generated MySQL database.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">July 2017 - December 2018</span>
+            </div>
+          </div>
+        </div>
+        <div class="resume-item col-md-6 col-sm-12">
+          <div class="card mx-0 p-4 mb-5" style="border-color: #2196f3; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-3"><i class="fa fa-area-chart mr-3 text-primary"></i> Software Engineer at Mast Tech International</h4>
+              <p>My primary job here was developing Android apps for pharmaceutical companies. These apps are primarily 
+                for sales representatives of the company. The purpose is to collect orders from medicine outlets. I also 
+                wrote the necessary REST APIs in .Net framework.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">December 2013 - August 2014</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--====================================================
+                        PORTFOLIO
+    ======================================================-->
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
+      <div class="row my-auto">
+        <div class="col-12">
+          <h2 class="  text-center">Portfolio</h2>
+          <div class="mb-5 heading-border"></div>
+        </div>
+        <div class="col-md-12">
+          <div class="port-head-cont">
+            <button class="btn btn-general btn-green filter-b" data-filter="all">All</button>
+            <button class="btn btn-general btn-green filter-b" data-filter="web-apps">Web Apps</button>
+            <button class="btn btn-general btn-green filter-b" data-filter="winform-based-apps">WinForm Based Apps</button>
+            
+            <button class="btn btn-general btn-green filter-b" data-filter="android">Android</button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- OnlineSales -->
+      <div class="row my-auto">
+        <div class="col-sm-4 portfolio-item filter web-apps">
+          <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/onlinesales.jpg" alt="">
+          </a>
+        </div>
+
+
+        <!-- DMS -->
+        <div class="col-sm-4 portfolio-item filter winform-based-apps">
+          <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/dms.png" alt="">
+          </a>
+        </div>
+        
+        <!-- MIS -->
+        <div class="col-sm-4 portfolio-item filter web-apps">
+          <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/mis.jpg" alt="">
+          </a>
+        </div>
+
+        <!-- EaseGL -->
+        <div class="col-sm-4 portfolio-item filter winform-based-apps">
+          <a class="portfolio-link" href="#portfolioModal7" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/easegl.jpg" alt="EaseGL">
+          </a>
+        </div>
+
+        <!-- OrionSales -->
+        <div class="col-sm-4 portfolio-item filter winform-based-apps">
+          <a class="portfolio-link" href="#portfolioModal8" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/orionsales.jpg" alt="">
+          </a>
+        </div>
+
+        <!-- Memo printing solution -->
+        <div class="col-sm-4 portfolio-item filter web-apps winform-based-apps">
+          <a class="portfolio-link" href="#portfolioModal9" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/memo.jpg" alt="">
+          </a>
+        </div>
+
+        <!-- Orion Android -->
+        <div class="col-sm-4 portfolio-item filter android">
+          <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/orionandroid.jpg" alt="">
+          </a>
+        </div>
+
+        <!-- MeenaBazar -->
+        <div class="col-sm-4 portfolio-item filter android">
+          <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/meenabazar.png" alt="">
+          </a>
+        </div>
+
+        <!-- <div class="col-sm-4 portfolio-item filter finance">
+          <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/p-3.jpg" alt="">
+          </a>
+        </div>
+      </div>-->
+    </section> 
+
+    <!--====================================================
+                        SKILLS
+    ======================================================-->
+    <section class=" d-flex flex-column" id="skills">
+      <div class="p-lg-5 p-3 skill-cover">
+        <h3 class="text-center text-white">Coding Skills</h3>
+        <div class="row text-center my-auto ">
+          <div class="col-md-3 col-sm-6">
+            <div class="skill-item">
+              <i class="fa fa-windows fa-5x"></i>
+              <h2><span class="counter"> 85 </span><span>%</span></h2>
+              <p style="
+              font-weight: bold;
+              font-size: x-large;
+              margin-top: 10px;
+              margin-bottom: 10px;
+          ">C#</p>
+              <p style="font-size: 15px;" >WebForms, WinForms, MVC, REST APIs, RDLC Reporting </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="skill-item">
+              <i class="fa fa-code fa-5x"></i>
+              <h2><span class="counter"> 80 </span><span>%</span></h2>
+              <p style="
+              font-weight: bold;
+              font-size: x-large;
+              margin-top: 10px;
+              margin-bottom: 10px;
+          ">Telerik Controls</p>
+              <p style="font-size: 15px;" >Web & Desktop UI Controls, HTML5/JavaScript widgets, Data and Reporting tools </p>
+
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="skill-item">
+              <i class="fa fa-at fa-5x"></i>
+              <h2><span class="counter"> 50 </span><span>%</span></h2>
+              <p style="
+              font-weight: bold;
+              font-size: x-large;
+              margin-top: 10px;
+              margin-bottom: 10px;
+          ">Angular</p>
+              <p style="font-size: 15px;" >SPAs, two-way binding, modularization, RESTful API handling, dependency injection, and AJAX handling </p>
+
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="skill-item">
+              <i class="fa fa-android fa-5x"></i>
+              <h2><span class="counter"> 50 </span><span>%</span></h2>
+              <p style="
+              font-weight: bold;
+              font-size: x-large;
+              margin-top: 10px;
+              margin-bottom: 10px;
+          ">Android</p>
+              <p style="font-size: 15px;" >Native android with XML frontend and Java backend</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--====================================================
+                           AWARDS
+    ======================================================
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+      <div class="row my-auto">
+        <div class="col-12">
+          <h2 class="  text-center">Awards</h2>
+          <div class="mb-5 heading-border"></div>
+        </div>
+        <div class="main-award" id="award-box">
+          <div class="award">
+            <div class="award-icon"></div>
+            <div class="award-content">
+              <span class="date">Apr 2017 - Mar 2018</span>
+              <h5 class="title">Google Analytics Certified Developer</h5>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar
+                tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
+              </p>
+            </div>
+          </div>
+          <div class="award">
+            <div class="award-icon"></div>
+            <div class="award-content">
+              <span class="date">Apr 2018 - Mar 2019</span>
+              <h5 class="title">Mobile Web Specialist - Google Certification</h5>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar
+                tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+
+    <!--====================================================
+                          CONTACT
+    ======================================================-->
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column">
+      <div class="row my-auto" id="contact">
+        <div class="col-md-8">
+          <div class="contact-cont">
+            <h3>CONTACT Me</h3>
+            <div class="heading-border-light"></div>
+            <p>You are always welcome to get in touch for a quote or consultancy. Please send me an email or call me if it is urgent.</p>
+          </div>
+          <div class="row con-form">
+            <div class="col-md-12">
+              <input type="text" name="full-name" placeholder="Full Name" class="form-control">
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="email" placeholder="Email Id" class="form-control">
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="subject" placeholder="Subject" class="form-control">
+            </div>
+            <div class="col-md-12"><textarea name="" id=""></textarea></div>
+            <div class="col-md-12 sub-but"><button class="btn btn-general btn-white" role="button">Send</button></div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 mt-5">
+          <div class="contact-cont2">
+            <div class="contact-add contact-box-desc">
+              <h3><i class="fa fa-map-marker cl-atlantis fa-2x"></i> Address</h3>
+              <p>155/5 Bangla Sarak <br>
+                Rayerbazar, Dhaka 1209 <br></p>
+            </div>
+            <div class="contact-phone contact-side-desc contact-box-desc">
+              <h3><i class="fa fa-phone cl-atlantis fa-2x"></i> Phone</h3>
+              <p>+8801917-434373</p>
+            </div>
+            <div class="contact-mail contact-side-desc contact-box-desc">
+              <h3><i class="fa fa-envelope-o cl-atlantis fa-2x"></i> Email</h3>
+              <address class="address-details-f">
+                <a href="mailto:atiqur.rahman6th@gmail.com" class="">atiqur.rahman6th@gmail.com</a>
+              </address>
+              <ul class="list-inline social-icon-f top-data">
+                <li><a href="#" target="_empty"><i class="fa top-social fa-facebook"
+                      style="color: #4267b2; border-color:#4267b2;"></i></a></li>
+                <li><a href="#" target="_empty"><i class="fa top-social fa-twitter"
+                      style="color: #4AB3F4; border-color:#4AB3F4;"></i></a></li>
+                <li><a href="#" target="_empty"><i class="fa top-social fa-google-plus"
+                      style="color: #e24343; border-color:#e24343;"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+
+  </div>
+
+  <!--====================================================
+                    PORTFOLIO MODALS
+======================================================-->
+  
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="modal-body">
+              <div class="title-bar">
+                <div class="col-md-12">
+                  <h2 class="text-center">Our Project</h2>
+                  <div class="heading-border"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="img-fluid img-centered" src="img/portfolio/p-3.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                  <p>Our new Project every processes had become fragmented; meaning quality and service were
+                    inconsistent. This lack of standardization was adversely impacting operating costs, productivity and
+                    customer satisfaction. For several years now Payfast has worked strategically with innovations as a
+                    means of developing new solutions, products and services. In line with this vision, Success was
+                    approached to find new payments solutions to offer Payfast customers on their website, including
+                    open invoice and partial payments options.</p>
+                  <ul class="list-inline item-details">
+                    <li>Client:
+                      <strong>
+                        <a href="#">Techs Soft</a>
+                      </strong>
+                    </li>
+                    <li>Date:
+                      <strong>
+                        <a href="#">April 2018</a>
+                      </strong>
+                    </li>
+                    <li>Service:
+                      <strong>
+                        <a href="#">Web Development</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i> Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OnlineSales onClick -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="modal-body">
+              <div class="title-bar">
+                <div class="col-md-12">
+                  <h2 class="text-center">Online Sales & Distribution System (OSDS)</h2>
+                  <div class="heading-border"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="img-fluid img-centered" src="img/portfolio/onlinesales.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                  <p>Online Sales is the most popular secondary sales and distribution system in Bangladesh with the capability 
+                    of designing complex and fully dynamic promotion and incentive modules. This is the web conversion 
+                    of offline DMS. This system covers the whole secondary sales and related supply chain related
+                    business requirements</p>
+                  <ul class="list-inline item-details">
+                    <li><strong>Clients:</strong>
+                      
+                        <text>Unilever Bangladesh Limited, Nestlé Bangladesh Limited, Japan Tobacco International Bangladesh
+                          , Perfetti Van Melle BD Pvt. Ltd, Standard Finis Oil Co., Abul Khair Group
+                          , Transcom Distribution Company Limited (Tdcl), Transcom Consumer Product Ltd
+                          , Arla Foods Bangladesh Ltd., Quazi Enterprises Limited, Burroughs Wellcome, and co. (Bangladesh) limited
+                          , Godrej Bangladesh, AM Beverage Unit-Coca-Cola – AMLBD, Dekko Group, and more</text>
+                          
+                    </li> 
+                  </ul>
+
+                  <ul class="list-inline item-details">                    
+                    <li><strong>Tools used:</strong>
+                      
+                        <text>ASP.net, SQL Server -2012, 2014, 2016,
+                          Ajax, JavaScript, Bootstrap, SSAS, SSIS, SSRS,
+                          Windows Service, SOAP, REST Services, Firebase<text>
+                      
+                    </li>
+                  </ul>
+                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i> Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DMS onClick -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="modal-body">
+              <div class="title-bar">
+                <div class="col-md-12">
+                  <h2 class="text-center">Distribution Management System (DMS)</h2>
+                  <div class="heading-border"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="img-fluid img-centered" src="img/portfolio/dms.png" alt="">
+                </div>
+                <div class="col-md-6">
+                  <p>DMS (Desktop Based) was the most popular secondary sales and distribution system (FMCG) in 
+                    Bangladesh with the capability of designing complex and fully dynamic promotion and incentive modules. 
+                    This system covers the whole secondary sales and related supply chain-related business requirements</p>
+
+                  <ul class="list-inline item-details">
+                    <li>
+                      <strong>
+                        Client:
+                      </strong>
+                      <text> 
+                        Nestlé Bangladesh Limited, Unilever Bangladesh Limited, GSK Bangladesh, New Zealand Dairy Products Bangladesh Ltd.
+                      </text>
+                    </li>                    
+                  </ul>
+
+                    <ul class="list-inline item-details">
+                    <li><strong>Tools used:</strong>
+                      <text>
+                        C#, ASP.Net Webworms (Reporting), SQL Server -2008, .NET 4.5,3 Tier Architecture, 
+                        Android, MS Visual Studio 2008,2010, jQuery, Telerik, Web API, SOAP.
+                      </text>
+                    </li>
+                  </ul>
+                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i> Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MIS onClick -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="modal-body">
+              <div class="title-bar">
+                <div class="col-md-12">
+                  <h2 class="text-center">Management Information System</h2>
+                  <div class="heading-border"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="img-fluid img-centered" src="img/portfolio/mis.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                  <p>Central Reporting System of Country-wide Sales Points.</p>
+
+                  <ul class="list-inline item-details">
+                    <li><strong>Clients: </strong>
+                      <text>Nestlé Bangladesh Limited</text>                        
+                    </li>
+                  </ul>
+
+                    <ul class="list-inline item-details">
+                    <li><strong>Tools used: </strong>
+                      <text>Silverlight, SQL Server -2012, MVVM Framework</text>                        
+                    </li>
+                  </ul>
+                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i> Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EaseGL onClick -->
+  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="modal-body">
+              <div class="title-bar">
+                <div class="col-md-12">
+                  <h2 class="text-center">Ease GL</h2>
+                  <div class="heading-border"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="img-fluid img-centered" src="img/portfolio/easegl.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                  <p>EaseGL helps bookkeepers and accountants in recording and reporting a firm's financial transactions.
+                    It provides all the key features, such as general ledgers, chart of accounts, invoicing, tax management
+                    , account reconciliation, accounts payable, accounts receivable, payroll and financial reporting
+                    , payments records, should be included in any accounting software. It also assist with the administration 
+                    of financial rules, such as state-by-state legislation on issues such as online sales tax.
+                  </p>
+                  <ul class="list-inline item-details">
+                    <li><strong>Clients: </strong>
+                      <text>
+                        Orion Group, Beacon Pharmaceuticals Limited
+                      </text>
+                    </li>
+                  </ul>
+
+                  <ul class="list-inline item-details">
+                    <li><strong>Tools used: </strong>
+                      <text>
+                        C# WinForm, SQL Server 2005/08
+                      </text>
+                    </li>
+                  </ul>
+
+                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i> Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OrionSales onClick -->
+  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="modal-body">
+              <div class="title-bar">
+                <div class="col-md-12">
+                  <h2 class="text-center">Orion Sales</h2>
+                  <div class="heading-border"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="img-fluid img-centered" src="img/portfolio/orionsales.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                  <p>Sales and distribution system exclusively designed for Orion Pharma. The system covers from order
+                    download to delivery (/returns) along with different reporting interfaces.</p>
+                    
+                  
+                    <ul class="list-inline item-details">
+                      <li><strong>Clients: </strong>
+                        <text>
+                          Orion Pharma Limited
+                        </text>
+                      </li>
+                    </ul>
+  
+                    <ul class="list-inline item-details">
+                      <li><strong>Tools used: </strong>
+                        <text>
+                          C# WinForm, SQL Server 2005/08
+                        </text>
+                      </li>
+                    </ul>
+                    
+                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i> Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Memo printing solution onClick -->
+  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="modal-body">
+              <div class="title-bar">
+                <div class="col-md-12">
+                  <h2 class="text-center">Cash Memo Printing</h2>
+                  <div class="heading-border"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="img-fluid img-centered" src="img/portfolio/memo.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                  <p>This is a module, part of bot Online Sales and DMS, that gives the users the ability to print cash Memo precisely using dot matrix printers. On the web, it is implemented with Telerik controls and RDLC is used in the Desktop version. The code is written in such a way that necessary information could be passed easily if you would like to use a third party (VAT compliant) to do the job.</p>
+                  
+                    <ul class="list-inline item-details">
+                      <li><strong>Clients: </strong>
+                        <text>
+                          Most of the client that use OnlineSales and DMS (Unilever, Nestle etc.).
+                        </text>
+                      </li>
+                    </ul>
+  
+                    <ul class="list-inline item-details">
+                      <li><strong>Tools used: </strong>
+                        <text>
+                          ASP.Net Web Forms, C# WinForm, SQL Server 08,14,17 etc., Telerik reporting, RDLC
+                        </text>
+                      </li>
+                    </ul>
+
+                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i> Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OrionAndroid onClick -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            
+            <div class="modal-body">
+              <div class="title-bar">
+                <div class="col-md-12">
+                  <h2 class="text-center">Orion Android</h2>
+                  <div class="heading-border"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="img-fluid img-centered" src="img/portfolio/orionandroid.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                  <p>Order collection system used by Orion SRs. The app
+                    connects with the central database through REST API.</p>
+                  
+                  <ul class="list-inline item-details">
+                    <li><strong>Clients: </strong>
+                      <text>
+                        Orion Pharma Limited
+                      </text>
+                    </li>
+                  </ul>
+
+                  <ul class="list-inline item-details">
+                    <li><strong>Tools used: </strong>
+                      <text>
+                        Android Studio, Java, XML, SQLite
+                      </text>
+                    </li>
+                  </ul>
+
+                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i> Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MeenaBazar onClick -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="modal-body">
+              <div class="title-bar">
+                <div class="col-md-12">
+                  <h2 class="text-center">Meena Bazar</h2>
+                  <div class="heading-border"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+
+                  <div class="slideshow-container">
+
+                    <div class="mySlides">
+                      <div class="numbertext">1 / 5</div>
+                      <img src="/img/portfolio/meena-slides/1.jpg" style="width:100%">
+                      <div class="text">Login/Registration screen</div>
+                    </div>
+                    
+                    <div class="mySlides">
+                      <div class="numbertext">2 / 5</div>
+                      <img src="/img/portfolio/meena-slides/2.jpg" style="width:100%">
+                      <div class="text">Product Details</div>
+                    </div>
+                    
+                    <div class="mySlides">
+                      <div class="numbertext">3 / 5</div>
+                      <img src="/img/portfolio/meena-slides/3.jpg" style="width:100%">
+                      <div class="text">Burger Menu Options</div>
+                    </div>
+
+                    <div class="mySlides">
+                      <div class="numbertext">4 / 5</div>
+                      <img src="/img/portfolio/meena-slides/4.jpg" style="width:100%">
+                      <div class="text">Shopping Cart</div>
+                    </div>
+
+                    <div class="mySlides">
+                      <div class="numbertext">5 / 5</div>
+                      <img src="/img/portfolio/meena-slides/5.jpg" style="width:100%">
+                      <div class="text">Checkout Page</div>
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                      <span class="dot" onclick="currentSlide(4)"></span> 
+                      <span class="dot" onclick="currentSlide(5)"></span> 
+                    </div>
+                  
+                </div>
+                <div class="col-md-6">
+                  <p>Meena Bazar is a well reputed retail supermarket chain in Bangladesh with International standards. Every Meena Bazar outlet carries almost 6,000-8,000 products to sell. It also produces organic products, dairy items, prepared food & herbal products.
+
+                    The Android app uses the same database of web platform http://www.meenabazar.com.bd/, so the user will get the same functionality as web through their android devices.</p>
+                  
+                    <ul class="list-inline item-details">
+                      <li><strong>Clients: </strong>
+                        <text>
+                          Gemcon Group
+                        </text>
+                      </li>
+                    </ul>
+  
+                    <ul class="list-inline item-details">
+                      <li><strong>Tools used: </strong>
+                        <text>
+                          Android Studio, Java, XML, SQLite
+                        </text>
+                      </li>
+                    </ul>
+
+                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i> Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Global javascript -->
+  <script src="js/jquery/jquery.min.js"></script>
+  <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-easing/jquery.easing.min.js"></script>
+  <script src="js/counter/jquery.waypoints.min.js"></script>
+  <script src="js/counter/jquery.counterup.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      $(".filter-b").click(function () {
+        var value = $(this).attr('data-filter');
+        if (value == "all") {
+          $('.filter').show('1000');
+        }
+        else {
+          $(".filter").not('.' + value).hide('3000');
+          $('.filter').filter('.' + value).show('3000');
+        }
+      });
+
+      if ($(".filter-b").removeClass("active")) {
+        $(this).removeClass("active");
+      }
+      $(this).addClass("active");
+    });
+
+    // SKILLS
+    $(function () {
+      $('.counter').counterUp({
+        delay: 10,
+        time: 2000
+      });
+
+    });
+</script>
+
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+
+
+</body>
+
+</html>
